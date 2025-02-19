@@ -22,3 +22,9 @@ If you want more feedback on what happened and which files were successfully ext
 Now you will get a summary of the extracted files after clicking on "Extract Embedded Files".
 
 ![Screenshot 2025-02-19 103909](https://github.com/user-attachments/assets/49c06e06-f8ee-48cf-a88b-4f103696af0b)
+
+In this example, the pdf contained a file named factur-x.xml:
+![image](https://github.com/user-attachments/assets/b75fe984-2ccd-42dd-b941-64d7f152f017)
+
+This xml was saved separately in a folder with the same name as the pdf.
+
