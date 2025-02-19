@@ -3,6 +3,7 @@ import os
 import xml.dom.minidom
 
 def extract_embedded_files(pdf_path):
+    file_names = []
     doc = fitz.open(pdf_path)
     for i in range(doc.embfile_count()):
         file_name = doc.embfile_names()[i]
@@ -20,3 +21,5 @@ def extract_embedded_files(pdf_path):
         else:
             with open(foldername + '/' + file_name, "wb") as f:
                 f.write(file_data)
+        file_names.append(file_name)
+    return file_names
