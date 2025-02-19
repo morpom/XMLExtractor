@@ -68,7 +68,6 @@ class XMLExtractor:
             self.file_listbox.insert(tk.END, pdf_file)
 
     def show_message(self, message):
-        print('showing message')
         message_box = tk.Toplevel()
         message_box.title("Extraction Summary")
         message_box.geometry("600x200")
